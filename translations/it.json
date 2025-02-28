@@ -1,0 +1,28 @@
+{
+  "heading": "Demo della Localizzazione Linguistica",
+  "languageChange": "Cambia Lingua",
+  "language": "Lingua",
+  "image-alt": "Bottiglie di vetro capovolte su pali di recinzione",
+  "attribute-before": " attribuito",
+  "attribute-after": "",
+  "lipsum": {
+    "one": "Il Lorem ipsum, o lipsum come viene talvolta chiamato, è un testo fittizio utilizzato per la realizzazione di progetti di stampa, grafica o web. Il brano è attribuito a un ignoto tipografo del XV secolo che si pensa abbia strapazzato parti del De Finibus Bonorum et Malorum di Cicerone per utilizzarlo in un campionario. Di solito inizia con:",
+    "two": "Lo scopo del lorem ipsum è quello di creare un blocco di testo (frase, paragrafo, pagina, ecc.) dall'aspetto naturale che non distragga dal layout. Una pratica non priva di controversie, la disposizione di pagine con testo riempitivo senza senso può essere molto utile quando l'attenzione è rivolta al design, non al contenuto.",
+    "three": "Il brano ha conosciuto un'impennata di popolarità negli anni '60, quando Letraset lo utilizzava sui suoi fogli per il trasferimento a secco, e di nuovo negli anni '90, quando gli editori di desktop hanno incluso il testo nei loro software. Oggi è presente in tutto il web, su modelli, siti web e disegni di stock."
+  },
+  "common": {
+    "submit": "Invia",
+    "cancel": "Cancella",
+    "from": "Da"
+  },
+  "form": {
+    "message": "Messaggio",
+    "placeholder": "testo segnaposto",
+    "option_one": "Opzione {{num}}",
+    "option_other": "Opzioni",
+    "name": {
+      "first": "Nome",
+      "last": "Cognome"
+    }
+  }
+}
