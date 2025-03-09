@@ -16,13 +16,7 @@
     "from": "From"
   },
   "form": {
-    "message": "Message",
-    "placeholder": "placeholder text",
-    "option_one": "Option {{num}}",
-    "option_other": "Options",
-    "name": {
-      "first": "First Name",
-      "last": "Last Name"
-    }
+    "header": "LLM Query",
+    "clear": "Clear"
   }
 }

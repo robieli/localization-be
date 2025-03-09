@@ -16,13 +16,7 @@
     "from": "Da"
   },
   "form": {
-    "message": "Messaggio",
-    "placeholder": "testo segnaposto",
-    "option_one": "Opzione {{num}}",
-    "option_other": "Opzioni",
-    "name": {
-      "first": "Nome",
-      "last": "Cognome"
-    }
+    "header": "Query del LLM",
+    "clear": "Svuota"
   }
 }
