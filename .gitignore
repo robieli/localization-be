@@ -1,3 +1,4 @@
-connection.txt
 __pycache__
 model.py
+aws.py
+.aws

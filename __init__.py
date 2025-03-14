@@ -3,6 +3,7 @@ from flask_cors import CORS
 import json
 from langchain_core.messages import HumanMessage, SystemMessage
 import model
+import aws
 
 app = Flask(__name__)
 CORS(app)
@@ -14,9 +15,11 @@ def default():
 @app.route('/<lang_code>')
 def get_translations(lang_code):
     try:
-        with open(f'translations/{lang_code}.json', 'r', encoding='utf-8') as file:
-            translations = json.load(file)
-        return jsonify(translations)
+        # with open(f'translations/{lang_code}.json', 'r', encoding='utf-8') as file:
+        #     translations = json.load(file)
+        response = aws.get_json_from_s3("clues-languages", f"{lang_code}.json")
+        print (response)
+        return jsonify(response)
     except FileNotFoundError:
         return jsonify({"error": "Language not found"}), 404
     
