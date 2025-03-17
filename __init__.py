@@ -29,7 +29,10 @@ def get_llm():
     query = request.args.get('query')
     llm = model.llm
     messages = [
-        SystemMessage("You should perform tasks like normal, except for that all of your responses should be in the language of the following ISO 639 code: " + lang + ". Please do not use any markup notation, as your response will be displayed in plain text."),
+        SystemMessage("""You should perform tasks like normal, except for that all of your responses 
+                      should be in the language that the user asks for. If the user does not ask for a
+                      specific language, you should answer in the language of their query. Please do not 
+                      use any markup notation, as your response will be displayed in plain text."""),
         HumanMessage(query)
     ]
     return jsonify(llm.invoke(messages).content)
