@@ -1,0 +1,22 @@
+{
+  "heading": "Taallokalisatie demo",
+  "languageChange": "Taal wijzigen",
+  "language": "Taal",
+  "lipsum": {
+    "one": "Lorem ipsum, of lipsum zoals het soms wordt genoemd, is dummy-tekst die wordt gebruikt bij het opmaken van drukwerk, grafische ontwerpen of webontwerpen. De passage wordt toegeschreven aan een onbekende zetter in de 15e eeuw die vermoedelijk delen van Cicero's De Finibus Bonorum et Malorum heeft door elkaar gehusseld voor gebruik in een type-specimenboek. Het begint meestal met:",
+    "two": "Het doel van lorem ipsum is om een natuurlijk ogend tekstblok (zin, alinea, pagina, etc.) te creëren dat niet afleidt van de lay-out. Een praktijk die niet zonder controverse is, het opmaken van pagina's met betekenisloze opvultekst kan erg nuttig zijn wanneer de focus op het ontwerp moet liggen, niet op de inhoud.",
+    "three": "De passage kende een enorme populariteit in de jaren 60 toen Letraset het gebruikte op hun dry-transfer sheets, en opnieuw in de jaren 90 toen desktop publishers de tekst bundelden met hun software. Tegenwoordig is het overal op het web te zien; op sjablonen, websites en standaardontwerpen."
+  },
+  "common": {
+    "submit": "Indienen",
+    "cancel": "Annuleren",
+    "from": "Van"
+  },
+  "form": {
+    "header": "LLM-vraag",
+    "clear": "Duidelijk"
+  },
+  "translate": {
+    "header": "Live vertaling"
+  }
+}
